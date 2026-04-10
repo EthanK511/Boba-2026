@@ -1,0 +1,96 @@
+p, a {
+    font-family: "Saira Stencil", Arial;
+}
+.mename {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    transition: transform 0.3s ease;
+    margin-bottom: 25px;
+    background-image: url(/hd-cityscape-nyc-skyline-l.jpg);
+    background-size: cover;
+    background-position: bottom;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.mename:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+body {
+    background-color: rgb(10, 10, 30);
+    transition: background-color 0.5s;
+    overflow-x: hidden;
+}
+body:active {
+    background-color: rgb(20, 20, 50)
+}
+.projects {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.project {
+    color: white;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.card {
+    border-radius: 25px;
+    border-color: grey;
+    background-color: grey;
+    display:inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+    padding: 15px;
+    margin: 5px;
+    width: 400px;
+    height: 221px;
+}
+.description {
+    color: lightgray;
+    
+    margin-bottom: 20px;
+}
+.repo, .site {
+    font-size: 15px;
+    border-radius: 10px;
+    border-color: darkslateblue;
+    color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    background-color: darkslateblue;
+    padding: 8px;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    margin-top: 0;
+}
+.repo:hover, .site:hover {
+    border-radius: 10px;
+    border-color: darkslateblue;
+    border-width: 1px;
+    border-style: solid;
+    color: aliceblue;
+    background-color: grey;
+    padding: 8px;
+    cursor: pointer;
+}
+.links {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 8px;
+    padding-top: 8px;
+}
+.home {
+    align-items: top;
+}
+.secretdot {
+    font-size: 20px;
+    display: inline-block;
+    color:aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
